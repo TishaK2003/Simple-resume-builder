@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Resume Builder</h2>
+    <form action="submit.php" method="POST">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <!-- Education Fields -->
+        <h3>Education</h3>
+        <label for="degree">Degree:</label>
+        <input type="text" id="degree" name="degree" required><br>
+
+        <label for="institution">Institution:</label>
+        <input type="text" id="institution" name="institution" required><br>
+
+        <label for="startYear">Start Year:</label>
+        <input type="text" id="startYear" name="startYear" required><br>
+
+        <label for="endYear">End Year:</label>
+        <input type="text" id="endYear" name="endYear" required><br>
+
+        <!-- Experience Fields -->
+        <h3>Experience</h3>
+        <label for="position">Position:</label>
+        <input type="text" id="position" name="position" required><br>
+
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" required><br>
+
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required><br>
+
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" required><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
